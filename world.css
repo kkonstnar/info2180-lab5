@@ -1,0 +1,95 @@
+/* Add your own styles */
+body{
+    background-color:  	#e6f2ff;
+}
+/* HEADER*/
+header {
+    background-color: rgb(112, 128, 144);
+    padding: 10px 10px;
+}
+
+header > h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.header_image > img{
+    height: 250px;
+    width: 375px;
+}
+
+.header_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_image{
+    float: left;
+}
+
+.header_text{
+    float: right;
+    color: whitesmoke;
+}
+main{
+    padding-top: 60px;
+}
+/*   Main  */
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+#controls > label{
+    margin-right: 10px;
+    height: 25px;
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+#controls > input{
+    height: 40px;
+    border-radius: 5px;
+    font: 'Arial Narrow Bold', sans-serif;
+}
+#controls > button{
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+    
+    color: whitesmoke;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-shadow: black;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+#result{
+    padding-right: auto;
+    padding-left: auto;
+} 
+table {
+    border: 1px solid lightgray;
+    width: 70%;
+    align-items: center;
+}
+.showTable{
+    margin-left: auto;
+    margin-right: auto;
+}
+tr:nth-child(odd) {
+    background: #e6f2ff
+}
+tr:nth-child(even) {
+    background: #f0f7ff
+}
+#lookup{
+    background-color: rgb(72, 185, 138);
+}
+#lookupCity{
+    background-color: rgb(69, 93, 228);
+}
+
